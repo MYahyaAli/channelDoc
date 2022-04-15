@@ -1,0 +1,22 @@
+CRITICAL - 2022-04-13 06:40:46 --> unlink(D:\Program Files\xampp\htdocs\channelDoc-main\writable\session/ci_sessiongt1sfijuk5r8hgoeuci3i2av2rto1cep): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\Progr...', 'D:\\Program File...', 247)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Session\Handlers\FileHandler.php(247): unlink('D:\\Program File...')
+#2 [internal function]: CodeIgniter\Session\Handlers\FileHandler->destroy('gt1sfijuk5r8hgo...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Session\Session.php(423): session_destroy()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Logout.php(13): CodeIgniter\Session\Session->destroy()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Logout->logout()
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logout))
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-13 06:41:30 --> unlink(D:\Program Files\xampp\htdocs\channelDoc-main\writable\session/ci_sessiongt1sfijuk5r8hgoeuci3i2av2rto1cep): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\Progr...', 'D:\\Program File...', 247)
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Session\Handlers\FileHandler.php(247): unlink('D:\\Program File...')
+#2 [internal function]: CodeIgniter\Session\Handlers\FileHandler->destroy('gt1sfijuk5r8hgo...')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\Session\Session.php(423): session_destroy()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Logout.php(13): CodeIgniter\Session\Session->destroy()
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Logout->logout()
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logout))
+#7 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

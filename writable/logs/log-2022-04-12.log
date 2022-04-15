@@ -1,0 +1,9 @@
+CRITICAL - 2022-04-12 06:31:46 --> Invalid file: Login/index.php
+#0 D:\Program Files\xampp\htdocs\channelDoc-main\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Login/index.php')
+#1 D:\Program Files\xampp\htdocs\channelDoc-main\system\Common.php(1089): CodeIgniter\View\View->render('Login/index', Array, true)
+#2 D:\Program Files\xampp\htdocs\channelDoc-main\app\Controllers\Register.php(32): view('Login/index')
+#3 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(832): App\Controllers\Register->create()
+#4 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 D:\Program Files\xampp\htdocs\channelDoc-main\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\channelDoc-main\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
